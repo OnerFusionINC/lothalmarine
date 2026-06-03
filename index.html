@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lothal Marine Private Limited is a premier shipbuilding, ship repair, and marine engineering company based in Mumbai, India. We deliver high-quality vessels and expert drydocking services.">
+  <title>Lothal Marine Pvt. Ltd. | Premier Shipbuilding & Marine Services</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/images/logo_icon.png" type="image/png" onerror="this.style.display='none'">
+</head>
+<body>
+
+  <!-- Top Slogan/Utility Bar -->
+  <div class="slogan-bar">
+    <div class="slogan-text">Lothal Marine Pvt. Ltd. — Quality & Integrity in Marine Engineering</div>
+    <div class="top-links">
+      <a href="contact.html?type=enquiry" id="top-link-enquiry">Enquiry</a>
+      <a href="contact.html#vendor-registration" id="top-link-vendor">Vendor Registration</a>
+      <a href="careers.html" id="top-link-careers">Careers</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="navbar">
+      <a href="index.html" class="logo-container" id="nav-logo">
+        <div class="logo-icon">LM</div>
+        <div class="logo-text">Lothal <span>Marine</span></div>
+      </a>
+      
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" class="active" id="nav-home">Home</a>
+        <a href="about.html" id="nav-about">About Us</a>
+        <a href="services.html" id="nav-services">Services & Facilities</a>
+        <a href="products.html" id="nav-products">Products</a>
+        <a href="careers.html" id="nav-careers">Careers</a>
+        <a href="contact.html" id="nav-contact">Contact Us</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section Slider -->
+  <main>
+    <section class="hero-slider" aria-label="Welcome Slider">
+      <div class="slides-container">
+        <!-- Slide 1 -->
+        <div class="slide active" style="background-image: url('assets/images/hero_bg.png');" role="img" aria-label="Modern industrial shipyard with vessel under construction">
+          <div class="slide-content">
+            <span class="tag">Shipbuilding Excellence</span>
+            <h2>Engineering the Vessels of Tomorrow</h2>
+            <p>Pioneering modern shipbuilding, steel fabrication, and custom vessel engineering tailored for global logistics and heavy industry.</p>
+            <div class="slide-actions">
+              <a href="services.html" class="btn btn-primary" id="hero-btn-services">Our Services</a>
+              <a href="contact.html" class="btn btn-secondary" id="hero-btn-contact">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: url('assets/images/product_tanker.png');" role="img" aria-label="Product tanker sailing at sunset">
+          <div class="slide-content">
+            <span class="tag">Naval Engineering</span>
+            <h2>Custom Shipbuilding & Design</h2>
+            <p>From product tankers and cement carriers to deck cargo barges, we fabricate durable hulls engineered to withstand the harshest maritime conditions.</p>
+            <div class="slide-actions">
+              <a href="products.html" class="btn btn-primary" id="hero-btn-products">Product Range</a>
+              <a href="about.html" class="btn btn-secondary" id="hero-btn-about">Who We Are</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: url('assets/images/shipyard_facility.png');" role="img" aria-label="Ship repair dry dock with gantry cranes">
+          <div class="slide-content">
+            <span class="tag">Repairs & Dry Docking</span>
+            <h2>Comprehensive Maintenance & Refits</h2>
+            <p>Providing state-of-the-art dry dock facilities and emergency repair services for hulls, propulsion systems, and marine electronics.</p>
+            <div class="slide-actions">
+              <a href="services.html#repairs" class="btn btn-primary" id="hero-btn-repairs">Repair Services</a>
+              <a href="contact.html?type=enquiry" class="btn btn-secondary" id="hero-btn-enquiry">Request Callback</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <button class="slider-btn prev" id="prev-slide" aria-label="Previous Slide">
+        <svg class="svg-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <button class="slider-btn next" id="next-slide" aria-label="Next Slide">
+        <svg class="svg-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+
+      <div class="slider-dots" id="slider-dots"></div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="scroll-reveal" id="overview-section">
+      <div class="section-container split-section">
+        <div class="split-image">
+          <img src="assets/images/shipyard_facility.png" alt="Lothal Marine dry dock and repair facilities in action" loading="lazy">
+        </div>
+        <div class="split-content">
+          <h3>Overview</h3>
+          <h2>Pioneering Solutions in Marine Logistics & Shipbuilding</h2>
+          <p>Established in 2015 and headquartered in Mumbai, Maharashtra, Lothal Marine Pvt. Ltd. has grown from a specialized engineering firm into a trusted partner in commercial shipbuilding, refitting, and ship repairs.</p>
+          <p>With an experienced team of marine architects, structural engineers, and skilled technicians, we construct and service medium-sized commercial cargo vessels, deck barges, tugboats, and custom pontoons.</p>
+          <a href="about.html" class="btn btn-primary" id="overview-read-more">Learn More About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Capabilities Section -->
+    <section class="optimize-render scroll-reveal" style="background-color: var(--bg-secondary);" id="capabilities-section">
+      <div class="section-container">
+        <div class="section-header">
+          <h2>Core Capabilities</h2>
+          <p>We provide full-lifecycle marine services, from conceptual ship design to complex repair, drydocking, and maintenance operations.</p>
+        </div>
+        
+        <div class="features-grid">
+          <!-- Item 1 -->
+          <div class="glass-card">
+            <div class="feature-icon">
+              <svg class="svg-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-5 14H4v-4h11v4zm0-5H4V9h11v4zm5 5h-4V9h4v9z"/></svg>
+            </div>
+            <h3 class="feature-title">New Build Construction</h3>
+            <p class="feature-desc">Building custom barges, tugs, workboats, and specialized vessels tailored to strict performance and registry standards.</p>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="glass-card">
+            <div class="feature-icon">
+              <svg class="svg-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+            </div>
+            <h3 class="feature-title">Ship Repair & Refits</h3>
+            <p class="feature-desc">Complete dry docking services including hull treatment, plumbing renewals, engine overhauling, and steel replacement.</p>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="glass-card">
+            <div class="feature-icon">
+              <svg class="svg-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+            </div>
+            <h3 class="feature-title">Marine Engineering</h3>
+            <p class="feature-desc">Conceptual drawing, stability booklets, statutory compliance support, and marine consultancy for commercial projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strategic Advantage -->
+    <section class="scroll-reveal" id="strategic-advantage">
+      <div class="section-container split-section">
+        <div class="split-content">
+          <h3>Strategic Yards</h3>
+          <h2>Equipped with Modern Fabrication Facilities</h2>
+          <p>Our logistical positioning allows us to run multiple active marine construction projects. We manage all stages of production in-house, ensuring strict quality control from raw plates to final trials.</p>
+          <p>We implement ISO 9001:2015 quality standards and adhere to international classification society rules (IRS, ABS, BV, and LRS) to certify safety, durability, and operational superiority.</p>
+          <a href="services.html" class="btn btn-secondary" id="strategic-btn-services">View Our Facilities</a>
+        </div>
+        <div class="split-image">
+          <img src="assets/images/hero_bg.png" alt="Modern shipyard fabrication hall" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners / Client Mockups -->
+    <section class="optimize-render scroll-reveal" style="background-color: var(--bg-secondary); padding: 4rem 2rem;" aria-label="Clients and Classification Partners">
+      <div class="section-container" style="text-align: center;">
+        <h3 style="font-family: var(--font-header); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-muted); margin-bottom: 2.5rem;">Classification & Standards Compliance</h3>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 4rem; opacity: 0.65; align-items: center;">
+          <div style="font-family: var(--font-header); font-size: 1.5rem; font-weight: 700; color: var(--text-secondary);">IRS CLASS</div>
+          <div style="font-family: var(--font-header); font-size: 1.5rem; font-weight: 700; color: var(--text-secondary);">ABS</div>
+          <div style="font-family: var(--font-header); font-size: 1.5rem; font-weight: 700; color: var(--text-secondary);">BUREAU VERITAS</div>
+          <div style="font-family: var(--font-header); font-size: 1.5rem; font-weight: 700; color: var(--text-secondary);">LLOYD'S REGISTER</div>
+          <div style="font-family: var(--font-header); font-size: 1.5rem; font-weight: 700; color: var(--text-secondary);">ISO 9001:2015</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <h3>Lothal <span>Marine</span></h3>
+        <p>Providing premium shipbuilding, repairs, and marine logistics out of Mumbai, India since 2015. Adhering to the highest global engineering standards.</p>
+        <p style="color: var(--text-muted); font-size: 0.8rem;">CIN: U74120MH2015PTC269837</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html" id="foot-nav-home">Home</a></li>
+          <li><a href="about.html" id="foot-nav-about">About Us</a></li>
+          <li><a href="services.html" id="foot-nav-services">Services & Facilities</a></li>
+          <li><a href="products.html" id="foot-nav-products">Products</a></li>
+          <li><a href="careers.html" id="foot-nav-careers">Careers</a></li>
+          <li><a href="contact.html" id="foot-nav-contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="services.html#shipbuilding">New Vessel Construction</a></li>
+          <li><a href="services.html#repairs">Hull & Piping Repairs</a></li>
+          <li><a href="services.html#drydock">Drydock Maintenance</a></li>
+          <li><a href="services.html#consultancy">Marine Consultancy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Contact Info</h4>
+        <ul style="color: var(--text-secondary); font-size: 0.9rem;">
+          <li style="margin-bottom: 0.5rem;">Vishnu Nagar Society, L.U. Gadkari Marg,<br>Chembur, Mumbai, MH - 400074</li>
+          <li style="margin-bottom: 0.5rem;">Email: <a href="mailto:info@lothalmarine.in">info@lothalmarine.in</a></li>
+          <li>Phone: +91 22 2526 9837</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>Copyright &copy; 2026 Lothal Marine Pvt. Ltd. All rights reserved.</div>
+      <div class="footer-bottom-links">
+        <a href="contact.html?type=enquiry" id="foot-link-enquiry">Enquiry</a>
+        <a href="contact.html#vendor-registration" id="foot-link-vendor">Vendor Registration</a>
+        <a href="about.html#qms" id="foot-link-qms">HSE Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
