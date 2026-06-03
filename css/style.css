@@ -215,6 +215,13 @@ header.scrolled {
   font-family: var(--font-header);
 }
 
+.logo-icon-img {
+  height: 38px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .logo-text {
   font-family: var(--font-header);
   font-size: 1.35rem;
