@@ -165,7 +165,7 @@ header.scrolled {
   background-color: rgba(3, 10, 26, 0.9);
   padding: 0.4rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   font-size: 0.75rem;
   font-family: var(--font-header);
