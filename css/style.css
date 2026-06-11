@@ -160,31 +160,6 @@ header.scrolled {
   box-shadow: var(--shadow-md);
 }
 
-/* Slogan Bar */
-.slogan-bar {
-  background-color: rgba(3, 10, 26, 0.9);
-  padding: 0.4rem 2rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 0.75rem;
-  font-family: var(--font-header);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.slogan-text {
-  color: var(--text-secondary);
-}
-
-.top-links a {
-  color: var(--text-secondary);
-  margin-left: 1.25rem;
-  font-weight: 500;
-}
-
-.top-links a:hover {
-  color: var(--accent-cyan);
-}
 
 /* Main Navbar */
 .navbar {
@@ -1005,10 +980,6 @@ footer {
   
   .nav-links.active ~ .menu-toggle span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
-  }
-
-  .slogan-bar {
-    display: none;
   }
   
   .slide-content {
