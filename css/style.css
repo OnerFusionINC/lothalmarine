@@ -534,7 +534,7 @@ section {
 .page-header {
   padding: 12rem 2rem 5rem 2rem;
   background: linear-gradient(to bottom, rgba(4, 13, 33, 0.95), rgba(4, 13, 33, 0.7)),
-              url('../assets/images/hero_bg.png');
+              url('../assets/images/hero_bg.jpg');
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--border-color);
