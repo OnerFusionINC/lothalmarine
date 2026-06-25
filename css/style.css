@@ -915,6 +915,19 @@ footer {
   color: var(--accent-cyan);
 }
 
+.designer-link {
+  color: var(--accent-cyan);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.designer-link:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+
+
 /* SVG icons custom sizes */
 .svg-icon {
   width: 1.25em;
