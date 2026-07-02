@@ -87,19 +87,17 @@
             </div>
           </div>
 
-          <!-- Styled Map Mockup -->
+          <!-- Styled Map -->
           <div class="glass-card" style="padding: 1.5rem; text-align: center; border-color: rgba(0, 245, 255, 0.1);">
             <div style="font-family: var(--font-header); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: var(--accent-cyan); margin-bottom: 0.75rem;">Office Location Map</div>
-            <div style="background-color: var(--bg-primary); height: 180px; border-radius: 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid rgba(255, 255, 255, 0.05); gap: 0.5rem; position: relative; overflow: hidden;">
-              <!-- Map abstraction lines -->
-              <div style="position: absolute; top: 0; left: 25%; width: 2px; height: 100%; background: rgba(0, 245, 255, 0.03);"></div>
-              <div style="position: absolute; top: 0; left: 60%; width: 2px; height: 100%; background: rgba(0, 245, 255, 0.03);"></div>
-              <div style="position: absolute; top: 40%; left: 0; width: 100%; height: 2px; background: rgba(0, 245, 255, 0.03);"></div>
-              <div style="position: absolute; top: 75%; left: 0; width: 100%; height: 2px; background: rgba(0, 245, 255, 0.03);"></div>
-              
-              <svg class="svg-icon" style="font-size: 2rem; color: var(--accent-cyan); z-index: 1;" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-              <div style="font-size: 0.8rem; font-weight: 600; color: var(--text-primary); z-index: 1;">CBD Belapur, Navi Mumbai, India</div>
-              <div style="font-size: 0.7rem; color: var(--text-muted); z-index: 1;">#66, Thapar Complex, Sector 15</div>
+            <div style="background-color: var(--bg-primary); height: 250px; border-radius: 6px; border: 1px solid rgba(255, 255, 255, 0.05); overflow: hidden; position: relative;">
+              <iframe 
+                src="https://maps.google.com/maps?q=Thapar%20Complex%20Sector%2015%20CBD%20Belapur%20Navi%20Mumbai&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                class="map-iframe"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
           </div>
         </div>
